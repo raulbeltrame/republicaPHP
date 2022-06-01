@@ -1,0 +1,22 @@
+<?php
+
+    require('bancoDadosBiblioteca.php');
+    $email = $_POST['email'];
+    $idMorador = $_POST['idMorador'];   
+
+    $sql = "SELECT * FROM tbMorador WHERE email = :email AND idMorador <> :idMorador;";
+    $conexao = criarConexao();
+    $resultado = $conexao->prepare($sql);	
+    $resultado->bindValue(':email', $email); 		
+    $resultado->bindValue(':idMorador', $idMorador); 		
+    $resultado->execute(); 
+    $registro = $resultado->fetch();
+    fecharConexao($conexao);
+
+    if(!isset($registro[0])){
+        echo "true";
+    } else{
+        echo "false";
+    }  
+
+?>

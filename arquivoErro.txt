@@ -1,0 +1,60 @@
+Data: 28/11/2020 23:37:12 
+	 Arquivo: C:\xampp\htdocs\pw2\Trabalho6\contaBiblioteca.php - Linha: 38 
+	 Erro: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'idTipo' cannot be null 
+Data: 28/11/2020 23:37:21 
+	 Arquivo: C:\xampp\htdocs\pw2\Trabalho6\contaBiblioteca.php - Linha: 38 
+	 Erro: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'idTipo' cannot be null 
+Data: 28/11/2020 23:37:54 
+	 Arquivo: C:\xampp\htdocs\pw2\Trabalho6\contaBiblioteca.php - Linha: 38 
+	 Erro: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'idTipo' cannot be null 
+Data: 28/11/2020 23:39:06 
+	 Arquivo: C:\xampp\htdocs\pw2\Trabalho6\historicoBiblioteca.php - Linha: 15 
+	 Erro: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'idConta' cannot be null 
+Data: 28/11/2020 23:48:09 
+	 Arquivo: C:\xampp\htdocs\pw2\Trabalho6\moradorBiblioteca.php - Linha: 66 
+	 Erro: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`projetoweb`.`tbconta`, CONSTRAINT `FK_tbConta_tbMorador` FOREIGN KEY (`idMoradorResponsavel`) REFERENCES `tbmorador` (`idMorador`) ON DELETE NO ACTION ON UPDATE NO ACTION) 
+Data: 28/11/2020 23:48:13 
+	 Arquivo: C:\xampp\htdocs\pw2\Trabalho6\moradorBiblioteca.php - Linha: 66 
+	 Erro: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`projetoweb`.`tbconta`, CONSTRAINT `FK_tbConta_tbMorador` FOREIGN KEY (`idMoradorResponsavel`) REFERENCES `tbmorador` (`idMorador`) ON DELETE NO ACTION ON UPDATE NO ACTION) 
+Data: 28/11/2020 23:49:33 
+	 Arquivo: C:\xampp\htdocs\pw2\Trabalho6\moradorBiblioteca.php - Linha: 66 
+	 Erro: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`projetoweb`.`tbconta`, CONSTRAINT `FK_tbConta_tbMorador` FOREIGN KEY (`idMoradorResponsavel`) REFERENCES `tbmorador` (`idMorador`) ON DELETE NO ACTION ON UPDATE NO ACTION) 
+Data: 28/11/2020 23:49:41 
+	 Arquivo: C:\xampp\htdocs\pw2\Trabalho6\moradorBiblioteca.php - Linha: 66 
+	 Erro: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`projetoweb`.`tbconta`, CONSTRAINT `FK_tbConta_tbMorador` FOREIGN KEY (`idMoradorResponsavel`) REFERENCES `tbmorador` (`idMorador`) ON DELETE NO ACTION ON UPDATE NO ACTION) 
+Data: 28/11/2020 23:50:57 
+	 Arquivo: C:\xampp\htdocs\pw2\Trabalho6\contaBiblioteca.php - Linha: 178 
+	 Erro: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined 
+Data: 28/11/2020 23:50:57 
+	 Arquivo: C:\xampp\htdocs\pw2\Trabalho6\moradorBiblioteca.php - Linha: 66 
+	 Erro: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`projetoweb`.`tbconta`, CONSTRAINT `FK_tbConta_tbMorador` FOREIGN KEY (`idMoradorResponsavel`) REFERENCES `tbmorador` (`idMorador`) ON DELETE NO ACTION ON UPDATE NO ACTION) 
+Data: 28/11/2020 23:51:54 
+	 Arquivo: C:\xampp\htdocs\pw2\Trabalho6\tipoContaBiblioteca.php - Linha: 49 
+	 Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 
+Data: 29/11/2020 14:44:46 
+	 Arquivo: C:\xampp\htdocs\Trabalho6\bancoDadosBiblioteca.php - Linha: 7 
+	 Erro: SQLSTATE[HY000] [1049] Unknown database 'projetoweb' 
+Data: 29/11/2020 14:44:54 
+	 Arquivo: C:\xampp\htdocs\Trabalho6\bancoDadosBiblioteca.php - Linha: 7 
+	 Erro: SQLSTATE[HY000] [1049] Unknown database 'projetoweb' 
+Data: 29/11/2020 14:45:00 
+	 Arquivo: C:\xampp\htdocs\Trabalho6\bancoDadosBiblioteca.php - Linha: 7 
+	 Erro: SQLSTATE[HY000] [1049] Unknown database 'projetoweb' 
+Data: 07/12/2020 21:52:09 
+	 Arquivo: C:\xampp\htdocs\Trabalho6\bancoDadosBiblioteca.php - Linha: 7 
+	 Erro: SQLSTATE[HY000] [1049] Unknown database 'projetoweb' 
+Data: 07/12/2020 21:52:24 
+	 Arquivo: C:\xampp\htdocs\Trabalho6\bancoDadosBiblioteca.php - Linha: 7 
+	 Erro: SQLSTATE[HY000] [1049] Unknown database 'projetoweb' 
+Data: 08/12/2020 11:55:56 
+	 Arquivo: C:\xampp\htdocs\Trabalho6\bancoDadosBiblioteca.php - Linha: 7 
+	 Erro: SQLSTATE[HY000] [1049] Unknown database 'projetoweb' 
+Data: 08/12/2020 15:28:33 
+	 Arquivo: C:\xampp\htdocs\PROJETOWEB\moradorBiblioteca.php - Linha: 34 
+	 Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'raulbeltrame4@gmail.com' for key 'email_UNIQUE' 
+Data: 08/12/2020 17:35:42 
+	 Arquivo: C:\xampp\htdocs\PROJETOWEB\historicoBiblioteca.php - Linha: 15 
+	 Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' 
+Data: 08/12/2020 19:02:57 
+	 Arquivo: C:\xampp\htdocs\PROJETOWEB\historicoBiblioteca.php - Linha: 15 
+	 Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' 
